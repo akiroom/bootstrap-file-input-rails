@@ -11,7 +11,14 @@ Gem::Specification.new do |s|
   s.email       = ["aki-hiroki@nifty.com"]
   s.homepage    = "http://gregpike.net/demos/bootstrap-file-input/demo.html"
   s.summary     = "File input fields look differently in all browsers."
-  s.description = "File input fields look differently in all browsers. Thanks to Gregory Pike."
+  s.description = <<-DESCRIPTION
+    File input fields look differently in all browsers.
+    Thanks to Gregory Pike.
+    LICENSE:
+    Copyright 2013 Gregory Pike
+    Apache License, Version 2.0
+    https://github.com/akiroom/bootstrap-file-input-rails/blob/master/LICENSE
+  DESCRIPTION
   s.license     = "Apache License, Version 2.0"
 
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
