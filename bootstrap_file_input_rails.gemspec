@@ -9,15 +9,14 @@ Gem::Specification.new do |s|
   s.version     = BootstrapFileInputRails::VERSION
   s.authors     = ["Hiroki Akiyama"]
   s.email       = ["aki-hiroki@nifty.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of BootstrapFileInputRails."
-  s.description = "TODO: Description of BootstrapFileInputRails."
-  s.license     = "MIT"
+  s.homepage    = "http://gregpike.net/demos/bootstrap-file-input/demo.html"
+  s.summary     = "File input fields look differently in all browsers."
+  s.description = "File input fields look differently in all browsers. Thanks to Gregory Pike."
+  s.license     = "Apache License, Version 2.0"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.1.4"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency 'rails', '~> 4', '>= 4.1.4'
+  s.add_dependency 'twitter-bootstrap-rails', '~> 3', '>= 3.2.0'
 end
