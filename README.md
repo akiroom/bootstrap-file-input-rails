@@ -18,7 +18,7 @@ gem 'jquery-ui-rails'
 To require bootstrap-file-input, add the following to your application.js:
 
 ```
-//= require bootstrap-file-input
+//= require bootstrap.file-input
 ```
 
 ## Demo
